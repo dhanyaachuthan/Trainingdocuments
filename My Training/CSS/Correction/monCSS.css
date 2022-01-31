@@ -1,0 +1,86 @@
+h1{
+    color: red;
+    animation: apparition 2s;
+}
+
+h1:hover{
+    color: seagreen;
+    transition: color 1s linear;
+}
+
+p{
+    animation: deplier 1s ease-in;
+}
+
+p:active{
+    transform: rotate(2turn);
+    transition: transform 2s linear;
+}
+
+#btn1:hover{
+    animation: rotation 0.2s infinite alternate;
+}
+
+#btn2:hover{
+    animation: bounce 0.2s infinite alternate;
+}
+
+#btn3:hover{
+    animation: inflate 0.5s linear infinite alternate;
+}
+
+@keyframes apparition{
+    from{
+        transform: translate(-300px, -300px);
+    }
+    to{
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes deplier{
+    from{
+        width: 0px;
+        height: 0px;
+    }
+
+    to{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@keyframes bounce {
+    from{
+        transform: translateY(0px);
+    }
+
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0);
+    }
+
+    50%{
+        transform: rotate(10deg);
+    }
+
+    to{
+        transform: rotate(-10deg);
+    }
+
+}
+
+@keyframes inflate{
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.3);
+    }
+}

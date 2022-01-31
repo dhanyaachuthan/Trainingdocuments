@@ -1,0 +1,23 @@
+img{
+    margin: 100px;
+}
+
+div:nth-child(1) img:hover{
+    transform: scale(2);
+}
+
+div:nth-child(1) img:active{
+    transform: rotate(0.5turn);
+}
+
+div:nth-child(2) img:hover{
+    transform: skewX(40deg);
+}
+
+div:nth-child(2) img:active{
+    transform: translate(200px);
+}
+
+p{
+    transform: scale(0.5) translateX(20px) rotate(35deg) skewY(10deg);
+}

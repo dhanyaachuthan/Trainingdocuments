@@ -1,0 +1,18 @@
+div:hover img {
+    transform: scale(2) rotate(180deg);
+    
+}
+
+/*
+#container1{
+    -webkit-transform:rotate(30deg) ;
+    transform: rotate(45deg);    
+}    
+*/
+#photo:hover img {
+    transform:scale(0.3) rotate(45deg) skewy();
+    transform:translateY(200PX);
+    -webkit-transform: rotate(45deg) skewY(20deg); 
+
+
+}

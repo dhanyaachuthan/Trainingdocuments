@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"  href="style.css"type="text/css">
+
+</head>
+<body>
+    <header>
+        <div><img src="header1.jpg"></div>
+        <h1>Bienvenu sur mon site !</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>                
+                <li><a href="#">Blog</a></li>
+                <li><a href="article1">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <form method="POST" action="monProgram.php">
+            <fieldset>
+                <legend>Contact</legend> 
+                <div>
+                    <label for="Nom">Nom:</label><span>*</span>
+                    <input type="text" required placeholder="Ex.Robert" min="2" maxlength="20">
+
+                </div>     
+                <div>
+                    <label for="Mail">E-mail:</label><span>*</span>
+                    <input type="text" required placeholder="Ex.MonMail@FAI.com">
+
+                </div>  
+                
+                <div>
+                    <label for="Laissez un commentaire ">Laissez un commentaire:</label>
+                    <br>
+
+                    <textarea placeholder="Je depose mon avis!" rows="10%" cols="70%"></textarea>
+
+                </div>  
+                <div>
+                    <input type="checkbox" name="" id="checkbox" checked>
+                    <label for="Checkbox">Envoyer une copie par E-mail !</label>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Reset</button>
+                </div>                
+            </fieldset>
+
+        </form>
+
+        <footer>
+            <ul>
+                <li><a href="5">Menu1</a></li>
+                <li><a href="6">Menu2</a></li>
+                <li><a href="7">Menu3</a></li>
+                <li><a href="8">Menu4</a></li>
+            </ul>
+        </footer>
+</body>
+</html>

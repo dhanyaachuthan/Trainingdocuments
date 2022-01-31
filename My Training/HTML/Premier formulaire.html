@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <fieldset> 
+        <legend>Ma personelle </legend>
+
+<form method="post" action="Monprogramme.php">
+
+<label for="Prénom">Prénom:</label>
+<input type="text" name="Prénom" placeholder="Ex.Jacques" maxlength="20" min="2">
+<br>
+<label for="Nom">Nom:</label>
+<input type="text" name="Nom"   placeholder="Ex.Dubois" maxlength="20" min="2">
+<br>
+
+
+<label for="E-mail">E-mail</label>
+<input type="e-mail" name="email" placeholder="Ex.Monmail@fai.com" >
+
+<br>
+
+
+<label for="Numéro">Numéro</label>
+<input type="tel" name="Numéro" placeholder="Ex.00.11.22.33.44" >
+
+<br>
+
+<label for="password">Mot de passe:</label>
+<input type="password" name="Mot de passe" placeholder="Ex.P@ssW4D" min="8" maxlength="30">
+
+
+
+<br>
+
+
+
+
+
+<label for="Age">Age</label>
+<input type="age" name="Age" placeholder="Ex.15" >
+
+
+
+<br>
+<label for="Date"> Date de mon commentaire:</label>
+<input type="date" name="Date">
+<br>
+
+
+<label for="Laissez un commentaire">Laissez un commentaire:</label>
+<br>
+
+
+<textarea placeholder="J'adore ce que vous faites!" rows="10%" cols="70%"></textarea>
+
+<br>
+<label for="Ma Photo"> Ma Photo:</label>
+<input type="file" name="file">
+<br>
+<br>
+
+</fieldset>
+
+<fieldset>
+    <legend>Vous préférez</legend>
+
+<div>
+
+
+<input type="checkbox" name="Le html" ><label for="checkbox">Le html</label>
+<br>
+
+
+<input type="checkbox" name="Le CSS" ><label for="checkbox">Le Css</label>
+<br>
+
+<input type="checkbox" name="Le javascript" ><label for="checkbox">Le javascript</label>
+
+<br>
+
+<input type="checkbox" name="Le javascript" ><label for="checkbox">Ne rien faire</label>
+
+</div>
+</fieldset>
+
+
+<fieldset>
+    <legend>Vous vous levez:</legend>
+
+<div>
+
+
+<input type="radio" id="Le matin" name="radio" value="Le matin"><label for="radio">Le matin</label>
+<br>
+
+<input type="radio" id="Le midi" name="radio" value="Le midi"><label for="radio">Le midi</label>
+<br>
+
+<input type="radio" id="Le matin" name="radio" value="Le soir"><label for="radio">Le so</label>
+<br>
+
+<input type="radio" id="Le matin" name="radio" value="En retard"><label for="radio">En retard !</label>
+<br>
+
+
+</div>
+</fieldset>
+
+<fieldset>
+    <legend>Fin du formulaire</legend>
+
+<div>
+    
+    <input type="submit" value="Envoyer" >
+
+    
+    <input type="submit" value="reset" >
+
+
+
+
+</div>
+</fieldset>
+
+</form>
+
+</body>
+</html>

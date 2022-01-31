@@ -1,0 +1,9 @@
+Use Case Diagram :
+Un diagramme de cas d'utilisation est une synthèse visuelle des interactions et des relations au sein d'un système. Ces diagrammes montrent une vue très large d'un système.
+Activity Diagram :
+Un diagramme d'activité permet de modéliser un processus interactif, global ou partiel pour un système donné (logiciel, système d'information). Il est recommandable pour exprimer une dimension temporelle sur une partie du modèle, à partir de diagrammes de classes ou de cas d'utilisation
+Le diagramme d'activité présente une vision macroscopique et temporelle du système modélisé 
+Le diagramme de séquence  :
+Le diagramme de séquence système , alias SSD , est le sous-type du diagramme de séquence qui nous montre les événements d'entrée et de sortie. Le diagramme de séquence du système illustre la séquence des cas d'utilisation. Ces cas d'utilisation sont les événements provoqués par des acteurs externes. Il définit leur ordre et les événements se produisant à l'intérieur du système.
+Le diagramme de classes :
+Le diagramme de classes est un diagramme statique. Il représente la vue statique d'une application. Le diagramme de classes est utilisé non seulement pour visualiser, décrire et documenter les différents aspects d'un système, mais aussi pour construire le code exécutable de l'application logicielle.

@@ -1,0 +1,51 @@
+// =========
+//  Série A
+// =========
+
+// A1 initialisation
+setPos(300,300);
+changeColor(color.red);
+setLineWidth(5);
+faceDown();
+
+// A1 réalisation
+forward(100);
+faceRight();
+forward(50);
+
+
+setPos(300,300);
+setLineWidth(5);
+// Répéter 3 fois :
+//        Avancer de 100 pixels
+//        Tourner à droite
+
+for(let i = 0 ; i < 3 ; i++) {
+    forward(100);
+    right(90);
+}
+
+let longueur; // Déclaration
+longueur = 40; // Affectation : mettre une valeur dans une variable
+forward(longueur); // Utilisation de la variable
+
+right(90);
+
+let longueurDuTrait = 100; // Initialisation : déclaration + affectation
+forward(longueurDuTrait);
+
+let longueur = 100;
+for(let i = 0 ; i < 60 ; i++) {
+    forward(longueur);
+    longueur = longueur + 50; // Incrémenter longueur de 50
+    // longueur += 50; // Écriture alternative
+    right(120);
+}
+
+
+
+Pour ceux qui font celui là !
+
+Une des difficultés, c'est de trouver l'angle pour chaque figure.
+Pour ça, partons du triangle, et imaginons être à la place de la tortue. Quand on fait un tour de triangle, on fait "Avancer ; tourner" trois fois. Donc on a tourné trois fois. Et si on regarde la progression de notre boussole pendant le déplacement, on s'aperçoit qu'on a fait un tour sur nous-même.
+On a tourné de 360° en 3 fois.

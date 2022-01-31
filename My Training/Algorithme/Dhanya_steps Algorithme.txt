@@ -1,0 +1,398 @@
+1. pikachu(1,1) ?
+
+Je crée deux variables, a et b, et je mets 1 et 1 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 0 à l'intérieur.
+  Je teste si "i<a". i est 0 et a est 1, donc oui, donc je fais une boucle
+  Je calcule résultat+b (0+1) et le mets dans la variable résultat ; résultat est maintenant 1
+  J'incrémente la variable i ; elle vaut maintenant 1
+  Je teste si "i<a". i est 1 et a est 1, donc non. La boucle est terminée.
+J'ai la solution dans la variable result: elle vaut 1.
+
+
+
+2 .*pikachu(1,4) = ?
+
+Je crée deux variables, a et b, et je mets 1 et 4 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+    Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<a". i est 0 et a est 1, donc oui, donc je fais une boucle
+	Je calcule résultat+b(0+4) et le mets dans la variable résultat ; résultat est maintenant 4
+	J'incrémente la variable i ; elle vaut maintenant 4
+	
+	Je teste si "i<a". i est 1 et a est 1, donc non. La boucle est terminée.
+J'ai la solution dans la variable result: elle vaut 4.
+
+
+3. plafond(2,3) = ?
+
+Je crée deux variables, a et b, et je mets 2 et 3 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<a". i est 0 et a est 2, donc oui, donc je fais une boucle
+	Je calcule résultat=b et le mets dans la variable résultat ; résultat est maintenant 3
+	
+	J'incrémente la variable i ;
+	Je teste si "i<a". i est 1 et a est 2, donc oui.
+	Je calcule résultat=b et le mets dans la variable résultat ; résultat est maintenant 3
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 2 et a est 2, donc non. La boucle est terminée.
+	
+J'ai la solution dans la variable result: elle vaut 3.	
+
+
+4.*plafond(3,2) = ?
+
+Je crée deux variables, a et b, et je mets 3 et 2 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<a". i est 0 et a est 3, donc oui, donc je fais une boucle
+	Je calcule résultat=b et le mets dans la variable résultat ; résultat est maintenant 2
+	
+	J'incrémente la variable i ;
+	Je teste si "i<a". i est 1 et a est 3, donc oui.
+	Je calcule résultat=b et le mets dans la variable résultat ; résultat est maintenant 2
+	
+	J'incrémente la variable i ;
+	Je teste si "i<a". i est 2 et a est 3, donc oui.
+	Je calcule résultat=b et le mets dans la variable résultat ; résultat est maintenant 2
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 3 et a est 3, donc non. La boucle est terminée.
+	
+J'ai la solution dans la variable result: elle vaut 2.
+
+
+5.tableur(1,1) = ?	
+
+
+Je crée deux variables, a et b, et je mets 1 et 1 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<=a". i est 0 et a est 1, donc oui, donc je fais une boucle
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 1
+	
+	J'incrémente la variable i ;
+	Je teste si "i<=a". i est 1 et a est 1, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 2
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a". i est 2 et a est 1, donc non. La boucle est terminée.
+	
+J'ai la solution dans la variable result: elle vaut 2.
+
+6.tableur(4,1) = ?	
+
+
+Je crée deux variables, a et b, et je mets 4 et 1 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<=a". i est 0 et a est 4, donc oui, donc je fais une boucle
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 1
+	
+	J'incrémente la variable i ;
+	Je teste si "i<=a". i est 1 et a est 4, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 2
+	
+	J'incrémente la variable i ;
+	Je teste si "i<=a". i est 2 et a est 4, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 3
+	
+	J'incrémente la variable i ;
+	Je teste si "i<=a". i est 3 et a est 4, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 4
+	
+	J'incrémente la variable i ;
+	Je teste si "i<=a". i est 4 et a est 4, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 5
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a". i est 5 et a est 4, donc non. La boucle est terminée.
+	
+J'ai la solution dans la variable result: elle vaut 5.
+
+7.lol(0,7) = ?	
+
+
+Je crée deux variables, a et b, et je mets 0 et 7 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<a". i est 0 et a est 0, donc non. La boucle est terminée.
+	
+J'ai la solution dans la variable result: elle vaut 0.
+
+
+8.lol(2,3) = ?	
+
+
+Je crée deux variables, a et b, et je mets 2 et 3 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<a". i est 0 et a est 2, donc oui, donc je fais une boucle
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 3
+	
+	J'incrémente la variable i ;
+	Je teste si "i<a". i est 0.5 et a est 2, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 6
+	
+	J'incrémente la variable i ;
+	Je teste si "i<a". i est 1 et a est 2, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 9
+	
+	J'incrémente la variable i ;
+	Je teste si "i<a". i est 1.5 et a est 2, donc oui.
+	Je calcule résultat+=b et le mets dans la variable résultat ; résultat est maintenant 12
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 2 et a est 2, donc non. La boucle est terminée.
+	
+J'ai la solution dans la variable result: elle vaut 12.
+
+9.wolverine(1,3) = ?	
+
+
+Je crée deux variables, a et b, et je mets 1 et 3 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<a". i est 0 et a est 1, donc oui, donc je fais une boucle
+	
+		Je crée une variable j et je mets 0 à l'intérieur.
+		Je teste si "j<b". j est 0 et b est 3, donc oui, donc je fais une boucle
+		Je calcule résultat++ et le mets dans la variable résultat ; résultat est maintenant 1
+		
+		J'incrémente la variable j ;
+		Je teste si "j<b". j est 1 et b est 3, donc oui.
+		Je calcule résultat++ et le mets dans la variable résultat ; résultat est maintenant 2
+		
+		J'incrémente la variable j ;
+		Je teste si "j<b". j est 2 et b est 3, donc oui.
+		Je calcule résultat++ et le mets dans la variable résultat ; résultat est maintenant 3
+		
+		J'incrémente la variable j ; 
+		Je teste si "j<b". j est 3 et b est 3, donc non. La boucle est terminée.
+		
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 1 et a est 1, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result: elle vaut 3.		
+
+10.wolverine(2,0) = ?	
+
+
+Je crée deux variables, a et b, et je mets 2 et 0 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets 0 à l'intérieur.
+	Je teste si "i<a". i est 0 et a est 2, donc oui, donc je fais une boucle
+	
+		Je crée une variable j et je mets 0 à l'intérieur.
+		Je teste si "j<b". j est 0 et b est 0, donc non. La boucle est terminée.
+	
+	J'incrémente la variable i ; 	
+	Je teste si "i<a". i est 1 et a est 2, donc oui, donc je fais une boucle
+	
+		Je crée une variable j et je mets 0 à l'intérieur.
+		Je teste si "j<b". j est 0 et b est 0, donc non. La boucle est terminée.
+		
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 2 et a est 2, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result: elle vaut 0.
+
+11.ventilateur(2,3) = ?	
+
+
+Je crée deux variables, a et b, et je mets 2 et 3 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets la valeur de a à l'intérieur.
+	Je teste si "i<a". i est 2 et a est 2, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result: elle vaut 0.
+
+
+12.ventilateur(4,5) = ?	
+
+
+Je crée deux variables, a et b, et je mets 4 et 5 dedans.
+Je crée une variable résultat et je mets 0 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+
+	Je crée une variable i et je mets la valeur de a à l'intérieur.
+	Je teste si "i<a". i est 4 et a est 4, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result : elle vaut 0.
+
+
+
+13. calcul(0) = ?
+
+
+Je crée une variable, a, et je mets 0.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+	
+ Je teste si "i<=a" i est 2 et a est 0, donc non. La boucle est terminée.
+
+J'ai la solution dans la variable result : elle vaut 1.
+
+
+14.calcul(1) = ?
+
+
+Je crée une variable, a, et je mets 1.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 1, donc non. La boucle est terminée.
+
+J'ai la solution dans la variable result : elle vaut 1.
+
+
+15.calcul(2) = ?
+
+Je crée une variable, a, et je mets 1.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 2, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 2, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result: elle vaut 2
+
+
+
+
+16.calcul(3) = ?
+
+
+Je crée une variable, a, et je mets 3.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 3, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 3, donc donc je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 6
+
+		
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 4 et a est 3, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result: elle vaut 6.
+
+
+17.calcul(4) = ?
+
+
+Je crée une variable, a, et je mets 4.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 4, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 4, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 6
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 4 et a est 4, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 24
+
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 5 et a est 4, donc non. La boucle est terminée.
+
+		
+J'ai la solution dans la variable result: elle vaut 24.		
+
+
+
+17.calcul(6) = ?
+
+Je crée une variable, a, et je mets 6.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 6, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 6
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 4 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 24
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 5 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 120
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 6 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 720
+
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 7 et a est 6, donc non. La boucle est terminée.
+
+		
+J'ai la solution dans la variable result: elle vaut 720.		
+
+	
+	
+	
+
+
+
+	
+
+
+	
+	

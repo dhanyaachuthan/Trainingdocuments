@@ -1,0 +1,11 @@
+#para1{
+    box-shadow: 6px 6px 10px green;
+}
+
+#para2{
+    box-shadow: 6px 6px 10px yellow;
+}
+
+h1{
+    text-shadow: 6px 6px 10px hotpink;
+}

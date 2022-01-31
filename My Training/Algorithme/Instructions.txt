@@ -1,0 +1,40 @@
+For the new exercise, you have three files. An html, a css, and a js.
+When you open the html in the browser, it will ask you some questions.
+The first one is "pikachu(1,1) = ?".
+
+To answer that question, you have to open the js file in your editor, and read the code. You will find a part which match the question. In the case of pikachu, it's the first thing.
+For example, you find 
+function pikachu(a,b) {
+    let result = 0;
+    for(let i=0; i<a; i++) {
+        result += b; // result = result+b;
+    }
+    return result;
+}
+
+
+For technical reasons, there is a new concept here, associated to the function keyword.
+I have not explained it yet, but in the context of this exercise, it will simplify as that :
+I am asked to compute pikachu(1,1), and in the first line, I see "function pikachu(a,b) {". 
+First step is to create to variable "a" and "b" and put the two values 1 and 1 inside (in the same order).
+Then I will read and execute the code inside the function.
+At the end, I will see "return something". It means "Ok, I found the solution to the question, it's : something".
+Some question have a green * before them. For these questions, I want you to write and send me everything you do.
+For example, for the first one, it could be :
+pikachu(1,1)
+I create two variable, a and b, and I put 1 and 1 inside.
+I create a variable result and put 0 inside.
+Now I'm in the loop :
+  I create a variable i and put 0 inside
+  I test if "i<a". i is 0 and a is 1, so yes, so I go for one loop
+  I compute result+b (0+1) and put it in the variable result; result is now 1
+  I increment the variable i; it is now 1
+  I test if "i<a". i is 1 and a is 1, so no. The loop is over.
+I have the solution in the variable result : it is 1.
+
+In parallel of doing that, you have to write the values of the variables on paper, so you can keep track of them.
+
+Now that we believe we have the result, we can go back to the html to input the answer. It goes green, meaning we found the correct result.
+After that, you can go to the next one, and repeat the process.
+
+On each line, you have to manually do as the computer does, instruction by instruction. And for the greater values, when you did the small examples, you can try to understand the code, and guess what the answer is.

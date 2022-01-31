@@ -1,0 +1,35 @@
+// =========
+//  Série A
+// =========
+
+// A1 initialisation
+setPos(300,300);
+changeColor(color.red);
+setLineWidth(5);
+faceDown();
+
+// A1 réalisation
+forward(100);
+faceRight();
+forward(50);
+
+
+setPos(300,300);
+setLineWidth(5);
+// Répéter 3 fois :
+//        Avancer de 100 pixels
+//        Tourner à droite
+
+for(let i = 0 ; i < 3 ; i++) {
+    forward(100);
+    right(90);
+}
+
+let longueur; // Déclaration
+longueur = 40; // Affectation : mettre une valeur dans une variable
+forward(longueur); // Utilisation de la variable
+
+right(90);
+
+let longueurDuTrait = 100; // Initialisation : déclaration + affectation
+forward(longueurDuTrait);

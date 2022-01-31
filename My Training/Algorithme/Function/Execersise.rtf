@@ -1,0 +1,381 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 // Exercice 1 : \'e9crire 50 fois "Bonjour" dans la console.\par
+console.log("Exercice 1");\par
+for(let i=0 ; i<50 ; i++) \{\par
+    console.log("Bonjour");\par
+\}\par
+\par
+// Exercice 2 : \'e9crire dans la console :\par
+// A\par
+// B\par
+// A\par
+// B\par
+// A\par
+// B\par
+// A\par
+// B\par
+// A\par
+// B\par
+console.log("Exercice 2");\par
+for(let i = 0 ; i < 5 ; i++) \{\par
+    console.log("A");\par
+    console.log("B");\par
+\}\par
+\par
+// Exercice 3 : \'e9crire dans la console :\par
+// A\par
+// A\par
+// A\par
+// A\par
+// A\par
+// B\par
+// A\par
+// A\par
+// A\par
+// A\par
+// A\par
+// B\par
+// A\par
+// A\par
+// A\par
+// A\par
+// A\par
+// B\par
+console.log("Exercice 3");\par
+// R\'e9p\'e9ter 3 fois :\par
+//        R\'e9p\'e9ter 5 fois :\par
+//            Afficher A\par
+//         Afficher B\par
+for(let i = 0 ; i < 3 ; i++) \{\par
+    for(let j = 0 ; j < 5 ; j++) \{\par
+        console.log("A");\par
+    \}\par
+    console.log("B");\par
+\}\par
+// Exercice 4 : \'e9crire dans la console :\par
+// 0\par
+// 1\par
+// 2\par
+// 3\par
+// 4\par
+// 5\par
+// 6\par
+// 7\par
+// 8\par
+// 9\par
+console.log("Exercice 4");\par
+let exo4 = 0;\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(exo4);\par
+    exo4++; // exo4 += 1 // exo4 = exo4+1\par
+\}\par
+\par
+console.log("Exercice 4 bis");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(i);\par
+\}\par
+\par
+// Exercice 5 : \'e9crire dans la console :\par
+// 3\par
+// 4\par
+// 5\par
+// 6\par
+// 7\par
+// 8\par
+// 9\par
+// 10\par
+// 11\par
+// 12\par
+console.log("Exercice 5");\par
+let exo5 = 3;\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(exo5);\par
+    exo5++;\par
+\}\par
+\par
+console.log("Exercice 5 bis");\par
+for(let i = 3 ; i < 13 ; i++) \{\par
+    console.log(i);\par
+\}\par
+\par
+console.log("Exercice 5 ter");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(i+3);\par
+\}\par
+Pierre \f1\emdash  01/13/2022\par
+\par
+console.log("Exercice 6");\par
+for(let j = 0 ; j < 2 ; j++) \{\par
+    for(let i = 0 ; i < 4 ; i++) \{\par
+        console.log(i);\par
+    \}\par
+\}\par
+console.log(0);\par
+console.log(1);\par
+\par
+console.log("Exercice 6 bis");\par
+let exo6B = 0;\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(exo6B);\par
+    \par
+    exo6B++;\par
+    if(exo6B == 4) \{\par
+        exo6B = 0;\par
+    \}\par
+\}\par
+\par
+console.log("Exercice 6 ter");\par
+let exo6T = 0;\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(exo6T);\par
+    \par
+    exo6T = (exo6T+1)%4;\par
+\}\par
+\par
+console.log("Exercice 6 quater");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(i%4);\par
+\}\par
+// Valeur de i        R\f0\'e9sultat \'e0 afficher\par
+    // 0                0\par
+    // 1                1\par
+    // 2                2\par
+    // 3                3\par
+    // 4                0\par
+    // 5                1\par
+    // 6                2\par
+    // 7                3\par
+    // 8                0\par
+    // 9                1\par
+Pierre \f1\emdash  01/13/2022\par
+console.log("Exercice 7");\par
+for(let i = 0 ; i < 5 ; i++) \{\par
+    console.log(i);\par
+\}\par
+for(let i = 0 ;  i < 3 ; i++) \{\par
+    console.log("A");\par
+\}\par
+console.log(8);\par
+console.log(9);\par
+\par
+console.log("Exercice 7 bis");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    if(i < 5 || i > 7) \{ // i inf\f0\'e9rieur \'e0 5 OU i sup\'e9rieur \'e0 7\par
+    // i n'est pas compris entre 5 et 7\par
+        console.log(i);\par
+    \} else \{\par
+        console.log("A");\par
+    \}\par
+\}\par
+\par
+console.log("Exercice 7 ter");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    if(i>=5 && i<=7) \{ // i compris entre 5 et 7\par
+    // i sup\'e9rieur ou \'e9gal \'e0 5 ET i inf\'e9rieur ou \'e9gal \'e0 7\par
+        console.log("A");\par
+    \} else \{\par
+        console.log(i);\par
+    \}\par
+\}\par
+\par
+if(/*premier test*/) \{\par
+    premiere action;\par
+\} else if(/*deuxieme test*/) \{\par
+    deuxieme action;\par
+\} else if(/*troisieme test*/) \{\par
+    troisieme action;\par
+\} else \{\par
+    quatrieme action;\par
+\}\par
+\par
+if(...) \{\par
+    action;\par
+\} // Sinon rien du tout\par
+\par
+\par
+console.log("Exercice 8");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    if(i%3 == 0) \{\par
+        console.log(i+100);\par
+    \} else \{\par
+        console.log(i);\par
+    \}\par
+\}\par
+\par
+// Exercice 9 : \'e9crire dans la console :\par
+// 0\par
+// 101\par
+// 202\par
+// 3\par
+// 104\par
+// 205\par
+// 6\par
+// 107\par
+// 208\par
+// 9\par
+console.log("Exercice 9");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    if(i%3 == 0) \{\par
+        console.log(i);\par
+    \} else \{\par
+        if(i%3 == 1) \{\par
+            console.log(i+100);\par
+        \} else \{\par
+            console.log(i+200);\par
+        \}\par
+    \}\par
+\}\par
+\par
+console.log("Exercice 9 bis");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    if(i%3 == 0) \{\par
+        console.log(i);\par
+    \} else if(i%3 == 1) \{\par
+        console.log(i+100);\par
+    \} else \{\par
+        console.log(i+200);\par
+    \}\par
+\}\par
+\par
+console.log("Exercice 9 ter");\par
+for(let i = 0 ; i < 10 ; i++) \{\par
+    console.log(i + (i%3)*100);\par
+\}\par
+\par
+// Le code qui est l\'e0-dedans est ex\'e9cut\'e9 une fois tout au d\'e9but, au chargement\par
+function setup() \{\par
+  // Cr\'e9er une zone de dessin, de 400 pixels de large et 400 pixels de haut.\par
+  createCanvas(400, 400);\par
+  console.log("Setup");\par
+\}\par
+\par
+// Le code dans "draw" est ex\'e9cut\'e9 \'e0 chaque frame, pour faire un dessin.\par
+function draw() \{\par
+  // Remplir le dessin d'une couleur unique.\par
+  // Un seul nombre = nuance de gris\par
+  background(108);\par
+  // Trois nombres : RGB\par
+  // background(184,150,57);\par
+  // Deux nombres : nuance de gris + opacit\'e9\par
+  // background(0,5);\par
+  // Quatre nombres : RGB + opacit\'e9\par
+  // background(255,0,0,2);\par
+  \par
+ \par
+  stroke(0);\par
+  strokeWeight(1);\par
+  // Dessiner le pixel qui est \'e0 100 pixels du bord gauche et 200 pixels du bord haut\par
+  point(100,200);\par
+  \par
+  // Changer la couleur du crayon\par
+  stroke(255,0,0);\par
+  // Changer la taille du crayon\par
+  strokeWeight(5);\par
+  point(200,100);\par
+  \par
+  // Dessiner une ligne\par
+  line(50, 320, 10, 50);\par
+  \par
+  // Couleur de remplissage\par
+  // fill(0,255,0);\par
+  noFill();\par
+  // Dessiner un cercle\par
+  circle(300,200,100);\par
+  \par
+  // Faire un carr\'e9\par
+  square(200,200,50);\par
+  \par
+  // Faire un rectangle\par
+  rect(250,50,100,20);\par
+  \par
+  // Faire une ellipse\par
+  ellipse(150,300,50,100);\par
+  \par
+  // console.log("Draw");\par
+  // Variables cr\'e9\'e9es automatiquement par p5\par
+  // console.log(mouseX, mouseY);\par
+  circle(mouseX,mouseY,50);\par
+\}\par
+\par
+function mouseClicked() \{\par
+  console.log("Clic");\par
+\}\par
+\par
+// Point de vue interne : cr\'e9ation des fonctions\par
+\par
+function nomDeLaFonction(/*variables qui vont stocker les valeurs transmises*/) \{\par
+    // Code de la fonction\par
+    // Ex\'e9cut\'e9 quand la fonction est appel\'e9e\par
+    \par
+    // Potentiellement, le mot-cl\'e9 "return"\par
+    // - La fonction est termin\'e9e\par
+    // - Le r\'e9sultat est :\par
+\}\par
+\par
+function direBonjour() \{\par
+    console.log("Bonjour");\par
+\}\par
+\par
+direBonjour();\par
+\par
+function direBonjour2(name) \{\par
+    console.log("Bonjour",name);\par
+\}\par
+direBonjour2("Pierre");\par
+direBonjour2("Amin");\par
+\par
+\par
+function vaut7() \{\par
+    return 7;\par
+\}\par
+\par
+console.log(vaut7());\par
+\par
+function sommeDesDeux(a,b) \{\par
+    let c = a+b;\par
+    console.log("J'additionne",a,"et",b);\par
+    return c;\par
+\}\par
+\par
+console.log(sommeDesDeux(10,2));\par
+Pierre \f1\emdash  01/17/2022\par
+\par
+// \f0\'c9crire une fonction f1 qui ne prend rien en entr\'e9e, et qui affiche 17 dans la console.\par
+\par
+// Utiliser la fonction f1 pour afficher 17 dans la console.\par
+\par
+// \'c9crire une fonction f2 qui ne prend rien en entr\'e9e, et qui retourne 17.\par
+\par
+// Utiliser la fonction f2 pour afficher 17 dans la console.\par
+\par
+// La fonction f2 a l'air moins pratique \'e0 utiliser. Quel int\'e9r\'eat pourrait-elle avoir par rapport \'e0 f1 ?\par
+\par
+// \'c9crire une fonction f3 qui prend un nombre en entr\'e9e et qui affiche dans la console le double de ce nombre.\par
+\par
+// Utiliser la fonction f3 pour \'e9crire dans la console le double de 99.\par
+\par
+// \'c9crire une fonction f4 qui prend un nombre en entr\'e9e et qui retourne le double de ce nombre.\par
+\par
+// Utiliser la fonction f4 pour \'e9crire dans la console le double de 99.\par
+\par
+// Utiliser la fonction f4 pour stocker dans une variable appel\'e9e a le double de 99.\par
+\par
+// \'c9crire une fonction f5 qui prend en entr\'e9e deux nombres et qui affiche dans la console la somme de ces deux nombres.\par
+\par
+// Utiliser la fonction f5 pour \'e9crire dans la console la somme de 42 et 77.\par
+\par
+// \'c9crire une fonction f6 qui prend en entr\'e9e deux nombres et qui retourne la somme de ces deux nombres.\par
+\par
+// Utiliser la fonction f6 pour \'e9crire dans la console la somme de 42 et 77.\par
+\par
+// Utiliser la fonction f6 pour incr\'e9menter la variable a de la somme de 42 et 77.\par
+\par
+// \'c9crire une fonction f7 qui prend deux nombres en entr\'e9e et qui retourne le plus grand des deux.\par
+\par
+// \'c9crire une fonction f8 qui prend trois nombres en entr\'e9e et qui retourne le plus grand des trois.\par
+// (Au moins deux versions possibles : sans utiliser f7, et en utilisant f7).\par
+\par
+// \'c9crire une fonction f9 qui prend un nombre et un mot en entr\'e9e, et qui affiche dans la console ce mot ce nombre de fois.\par
+}
+ 

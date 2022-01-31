@@ -1,0 +1,38 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color:lightpink;
+    border-width: 2px;
+    border-style:double;
+    
+}
+th,td{
+    text-align: center;
+    padding: 6px;
+}
+th{
+    background-color: green;
+    color: white;
+}
+caption
+{
+    font-weight: bold;
+    color: violet;
+}
+.Me{
+
+    font-weight: bold;
+    color:turquoise;
+}
+.Me1{
+
+    border: 2px solid;
+    border-collapse: collapse;
+    background-color: yellow;
+    border-width: 2px;
+    border-style:double;
+    color: blueviolet;
+
+
+    
+}

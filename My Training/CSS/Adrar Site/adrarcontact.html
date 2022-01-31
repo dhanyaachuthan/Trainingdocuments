@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ADRAR</title>
+    <link rel="stylesheet" href="adrarcontact.css">
+</head>
+
+<body>
+    <div id="banner">
+        <header>
+            <h1>CONTACT & INSCRIPTION</h1>
+        </header>
+        <p id="info1">
+            Pour vous inscrire (*) et participer aux évaluations d'entrée en formation, avoir plus d'informations, nous
+            poser vos questions, prendre rdv, etc... c'est très simple, remplissez le formulaire ci-dessous, joignez un
+            CV et vous serez très rapidement contacté par téléphone ou mail. (*) Toute inscription doit être
+            préalablement validée et enregistrée par l'ADRAR avant que vous vous présentiez..
+        </p>
+        <p id="info2">
+            <strong>CONTACTEZ-NOUS | INSCRIVEZ-VOUS | REJOIGNEZ-NOUS</strong><br />
+            <strong>ces formations métiers sont accessibles à tous, sans prérequis de diplôme,
+                pour peu que vous soyez motivés, et déterminés à réussir l’expérience</strong>
+        </p>
+    </div>
+
+    <form class="myForm" method="POST" action="*">
+        <fieldset>
+            <div class="row">
+                <div class="column">
+                    <div class="input-group">
+                        <input id="customer_name" placeholder="NOM">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email_address" placeholder="EMAIL">
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="phone_number" placeholder="TELEPHONE">
+                    </div>
+
+                    <p>Pour postuler, vous inscrire/participer aux évaluations d'entrée en formation, merci de nous
+                        communiquer ci-dessous votre C.V. actualisé.</p>
+
+                    <div id="file">
+                        <p><input type="file" name="inputfile" size="30" /><br />
+                            <em>(Taille maxi : 2Mo Formats : pdf|doc|docx|odt)</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="input-group">
+                        <label for="formation_type">Sélectionnez dans la liste ci-dessous la formation et le métier
+                            envisagé :</label>
+                        <select id="formation_type">
+                            <option value="" selected="selected">Sélectionnez ici la formation...</option>
+                            <option value="office">DÉVELOPPEUR/EUSE WEB & WEB MOBILE</option>
+                            <option value="AUTRES (à précisez dans le message)">AUTRES (à précisez dans le message)
+                            </option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="formation_site">Sélectionnez dans la liste ci-dessous le site de formation envisagé
+                            :</label>
+                        <select id="formation_site">
+                            <option value="" selected="selected">Sélectionnez le site de formation...</option>
+                            <option value="TOULOUSE/RAMONVILLE (31)">TOULOUSE/RAMONVILLE (31)</option>
+                            <option value="AUTRES (à précisez dans le message)">AUTRES (à précisez dans le message)
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Laissez un commentaire ">Laissez un commentaire:</label>
+                        <br>
+                        <textarea placeholder="VOTRE MESSAGE" rows="10%" cols="70%"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="checkbox" checked>
+                        <label for="Checkbox">Envoyer une copie par E-mail !</label>
+                    </div>
+                    <div id="captchadiv">
+                        <input type="checkbox" name="" id="captchacheckbox">
+                        <label for="Checkbox">I'm not a robot</label>
+                        <img src="captcha.png" >
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <div class="row">
+            <div>
+                <button id="button3" type="submit">Envoyer</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

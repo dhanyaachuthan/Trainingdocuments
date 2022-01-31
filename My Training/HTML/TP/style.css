@@ -1,0 +1,59 @@
+body {
+    background-image:radial-gradient(circle at top, #CCDAE0, #EDF2F4);
+}
+
+header {
+    text-align: center;
+}
+header h1 {
+    color: #EF233C;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Impact;
+}
+header img {
+    width:800px;
+    height:200px;
+}
+
+section {
+    border: black;
+}
+
+section h3 {
+    color: #2B2D42;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline dotted;
+
+}
+
+a {
+    color: #D90429;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #2B2D42;
+}
+
+section img {
+    width: 200px;
+    height: 100px;
+}
+
+footer {
+    text-align: right;
+}
+
+article {
+    border: 1px solid black;
+}
+
+img {
+    text-align: center;
+    border: 2px solid #8D99AE;
+}

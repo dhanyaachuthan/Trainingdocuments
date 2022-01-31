@@ -1,0 +1,129 @@
+13. calcul(0) = ?
+
+
+Je crée une variable, a, et je mets 0.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+	
+ Je teste si "i<=a" i est 2 et a est 0, donc non. La boucle est terminée.
+
+J'ai la solution dans la variable result : elle vaut 1.
+
+
+14.calcul(1) = ?
+
+
+Je crée une variable, a, et je mets 1.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 1, donc non. La boucle est terminée.
+
+J'ai la solution dans la variable result : elle vaut 1.
+
+
+15.calcul(2) = ?
+
+Je crée une variable, a, et je mets 1.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 2, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 2, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result: elle vaut 2
+
+
+
+
+16.calcul(3) = ?
+
+
+Je crée une variable, a, et je mets 3.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 3, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 3, donc donc je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 6
+
+		
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 4 et a est 3, donc non. La boucle est terminée.
+		
+J'ai la solution dans la variable result: elle vaut 6.
+
+
+17.calcul(4) = ?
+
+
+Je crée une variable, a, et je mets 4.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 4, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 4, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 6
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 4 et a est 4, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 24
+
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 5 et a est 4, donc non. La boucle est terminée.
+
+		
+J'ai la solution dans la variable result: elle vaut 24.		
+
+
+
+17.calcul(6) = ?
+
+Je crée une variable, a, et je mets 6.
+Je crée une variable aaa et je mets 1 à l'intérieur.
+
+Maintenant je suis dans la boucle :
+  Je crée une variable i et je mets 2 à l'intérieur.
+Je teste si "i<=a" i est 2 et a est 6, donc oui. donc je fais une boucle.
+
+Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 2.
+	
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 3 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 6
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 4 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 24
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 5 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 120
+
+	J'incrémente la variable i ; 
+	Je teste si "i<=a" . i est 6 et a est 6, donc oui .je fais une boucle.
+	Je calcule aaa *= i et le mets dans la variable aaa ; aaa est maintenant 720
+
+	J'incrémente la variable i ; 
+	Je teste si "i<a". i est 7 et a est 6, donc non. La boucle est terminée.
+
+		
+J'ai la solution dans la variable result: elle vaut 720.		

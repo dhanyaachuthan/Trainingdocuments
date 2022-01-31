@@ -1,0 +1,40 @@
+h1 {
+
+    color:red;
+    text-align: center;
+    }
+    
+    #Para1
+    {
+        background-color: gray;
+        
+    }
+    #a1 {
+        color:blue;
+    }
+
+    em {
+        color:orange;
+        text-decoration: underline;
+        font-size: large;
+        font-style: normal;
+    }
+    
+    #a2 {
+        color:green;
+        text-align: right; 
+        text-decoration: underline;       
+    }
+
+    strong {
+        color: greenyellow;
+    }
+    #para2
+    {
+        background-color: gray;
+    }
+
+    #para3
+    {
+        background-color:rosybrown;
+    }

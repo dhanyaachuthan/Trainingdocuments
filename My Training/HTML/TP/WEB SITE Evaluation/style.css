@@ -1,0 +1,65 @@
+body {
+  background: radial-gradient(circle at top center,#CCDAE0,#EDF2F4)
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width:800px;
+    height:200px;
+}
+
+header h1{
+    color: #EF233C;
+    font-family: Impact;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section img{
+    width:200px;
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8D99AE;
+}
+
+section h3{
+    color:#2B2D42;
+     font-weight: border; 
+     text-decoration: underline dashed;  
+}
+
+article{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+footer{
+    text-align: right;
+}
+
+a:link {
+    color: #D90429;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #2B2D42;
+}
+
+span {
+    color: red;
+    font-weight: bolder;
+}
